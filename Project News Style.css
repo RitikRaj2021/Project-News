@@ -1,0 +1,209 @@
+/*Body/background style */
+body {
+    background-color: lightblue;
+}
+
+/*Main Header */
+.mainheader {
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #333;
+}
+
+/* style for the nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position:sticky;
+    width:100%;
+    border:10px solid black;
+  }
+  
+  /* position of the navbar*/
+  li {
+    float:left;
+  }
+  
+  /*style for the nav bar */
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* style for the hover on the nav bar*/
+  li a:hover {
+    background-color:#333;
+  }
+
+/* style for the columns*/
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+       
+  }
+  
+  /* Clear floats after the columns */
+  /*.row:after {/*
+  /* content: "";/*
+  /*  display: table;/*
+  /*   clear: both;/*
+  /* } 
+  /**/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /*Style of the images */
+  img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Subbheading*/
+.subheading {
+  text-align: center;
+  color: #111;
+}
+
+/*Icon style*/
+.icon {
+  float:right;
+  position: absolute; right: 0;
+  width: 10%;
+  height: auto;
+  background: transparent;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+  
+
+/* style for the paragrapgh text in the articles */
+.paragraph{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style for the article headings */
+.articleheading {
+  text-align:justify;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+/* style for the footer*/
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height:40px ;
+  width: 100%;
+  background-color:#333;
+  text-align: center;
+}
+
+/* Add a card effect for the diffrent articles */ 
+.card {
+  background-color: white;
+  border: 10px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+/* style of the tool tip*/
+ .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+ }
+  
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+  

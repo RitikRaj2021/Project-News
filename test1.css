@@ -1,0 +1,71 @@
+body {
+    background-color:darkgray
+}
+
+h1 {
+    color:brown;
+    text-align: center;
+}
+
+p{
+  color: aqua;
+  text-align: center;
+}
+
+#para1 {
+      color:darkmagenta;
+      text-align: center;
+}
+
+#para2 {
+    color:greenyellow;
+    text-align: center;
+}
+
+#para3 {
+    color:blanchedalmond;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
